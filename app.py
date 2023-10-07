@@ -5,4 +5,4 @@ import pickle
 
 model = pickle.load(open("C:/Users/Atharva/Desktop/rxib/Diabetes_Prediction_Model_Practice/diabetes_prediction/diabetes_model.sav",'rb'))
 
-print("Loaded")
+st.title("Diabetes Prediction")
