@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 import pickle
 
-model = pickle.load(open("C:/Users/Atharva/Desktop/rxib/Diabetes_Prediction_Model_Practice/diabetes_prediction/diabetes_model.sav",'rb'))
+model = pickle.load(open("C:\Users\Atharva\Desktop\rxib\ML Projects\Diabetes_Prediction_Model_Practice\diabetes_prediction\diabetes_model.sav",'rb'))
 
 def diabetes_prediction(input_data):
     input_data_reshape = np.asarray(input_data).reshape(1,-1)
